@@ -138,3 +138,5 @@ client.on('raw', async event => {
         }
     }
 });
+
+client.login(process.env.BOT_TOKEN);
